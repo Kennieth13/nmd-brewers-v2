@@ -1,0 +1,151 @@
+#merchandise {
+    text-align: center;
+    width: 95%;
+    height: auto;
+    margin: 100px auto;
+}
+
+#merchandise h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: tahoma;
+   
+}
+
+hr {
+    width: 80%;
+    height: 15px;
+    border: none ;
+    background-color: #BD6E35;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+#merchandise h2 {
+    text-align: center;
+    font-size: 70px;
+    font-family: tahoma;
+    color: #BD6E35;
+    margin: 200px auto 0; 
+}
+
+ 
+.items img{
+    height: 500px;
+    width: 520px;
+    padding: 30px;
+    border-radius: 100px;
+}
+
+.items hr {
+    width: 60%;
+    height: 15px;
+    border: none;
+    background-color: black;
+    margin: 50px auto 100px;
+    border-radius: 5px;
+}
+
+
+#order-form {
+    margin: 50px auto;
+    width: 800px;
+}
+
+#order-form h1{
+    font-size: 70px;
+    font-family: tahoma;
+    margin: 0;
+    text-align: center;
+}
+
+#order-form label {
+    margin: 5px auto;
+    display: block;
+    font-family: tahoma;
+    font-size: 20px;
+    color: #BD6E35;
+}
+ 
+
+.user-input {
+    display: block;
+    margin: 5px auto;
+    width: 800px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid #BD6E35;
+}
+
+.forms {
+    margin: 20px 0;
+}
+
+.text-input {
+    display: block;
+    margin: 5px auto;
+    width: 800px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid #BD6E35;
+}
+
+.button {
+    text-align: center;
+    margin: 20px 0
+}
+
+.button input {
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+#footer {
+    margin: 100px auto;
+    width: 90%;   
+}
+
+#footer table {
+    width: 100%;
+}
+
+.footer-left {
+    width: 50%;
+    text-align: center;
+}
+
+.footer-left img{
+    margin: 0 auto;
+    height: 100px;
+    width: 200px;
+}
+
+.footer-left p{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 10px;
+    margin-top: 0;
+}
+
+.footer-right {
+    width: 50%;
+}
+
+.footer-right p {
+    margin: 5px;
+    text-align: right;
+    font-family: tahoma;
+    font-size: 12px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    gap: 30px; 
+}
+
+

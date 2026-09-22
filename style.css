@@ -1,0 +1,363 @@
+.story {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.story img {
+    margin: 40px 0;
+    border: 10px solid #DCD8D0;
+    border-radius: 50px;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text {
+    font-size: 30px;
+    max-width: 1000px;
+    font-family: Tahoma;
+    width: 50%;
+}
+
+.text h1 {
+    font-family: Tahoma;
+    color: #BD6E35;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.bestsellers {
+    display: flex;
+    gap: 5px;
+    overflow-x: auto;
+    width: 100%;
+}
+ 
+ 
+.bestsellers img {
+    width: 1000px;
+    height: auto;   
+}
+
+#buttons {
+    text-align: center;
+}
+#buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center; 
+}
+#bt1 {
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 1dvb;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    color: white;
+}
+
+#bt2 {
+    width: 200px;
+    height: 50px;
+    border: 5px solid whitesmoke;
+    border-radius: 1dvb;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    color: black;
+}
+
+ 
+#title {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: Tahoma;
+}
+
+#whydetails {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#whydetails img {
+    width: 300px;
+    height: 280px;
+    border:10px solid #321C16;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.whyitem {
+    text-align: center;
+    width: 400px;
+}
+
+.whyitem h2 {
+    font-family: Tahoma;
+    font-size: 30px;
+    color: #321C16;
+    margin-bottom: 0;
+}
+.whyitem p {
+    font-family: Tahoma;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#contactus {
+    margin: 50px auto;
+    width: 800px;
+}
+
+#contactus h1{
+    font-family: Tahoma;
+    font-size: 50px;
+    text-align: center;
+    color: #BD6E35;
+    margin-bottom: 0;
+}
+
+#contactus p{
+    font-family: Tahoma;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+#name{
+    margin-bottom: 20px;
+}
+
+#contactus label{
+    font-family: tahoma;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contactus input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #BD6E35;
+}
+
+#contactus textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #BD6E35;
+}
+
+#submit input{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+#footer {
+    margin: 100px auto;
+    width: 90%;   
+}
+
+#footer table {
+    width: 100%;
+}
+
+.footer-left {
+    width: 50%;
+    text-align: center;
+}
+
+.footer-left img{
+    margin: 0 auto;
+    height: 100px;
+    width: 200px;
+}
+
+.footer-left p{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 10px;
+    margin-top: 0;
+}
+
+.footer-right {
+    width: 50%;
+}
+
+.footer-right p {
+    margin: 5px;
+    text-align: right;
+    font-family: tahoma;
+    font-size: 12px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    gap: 30px; 
+}
+
+.coffee-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iced-coffee img {
+    width: 500px;
+    height: 480px;
+    border-radius: 100px;
+}
+
+.iced-coffee h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: tahoma;
+    color: #BD6E35;
+}
+
+.coffee-title {
+    text-align: center;
+    font-size: 80px;
+    font-family: tahoma;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.coffee-category {
+    text-align: center;
+    font-size: 50px;
+    font-family: tahoma;
+    color: #290E0A;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    font-family: Georgia;
+}
+
+.hot-coffee img {
+    width: 500px;
+    height: 480px;
+    padding: 30px;
+    border-radius: 100px;
+}
+
+.hot-coffee h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: tahoma;
+    color: #BD6E35;
+}
+
+.add-ons img {
+    width: 500px;
+    height: 480px;
+    padding: 30px;
+    border-radius: 100px;
+}
+
+.add-ons h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: tahoma;
+    color: #BD6E35;
+}
+
+.pastries img {
+    width: 500px;
+    height: 480px;
+    padding: 30px;
+    border-radius: 100px;
+}
+
+.pastries h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: tahoma;
+    color: #BD6E35;
+}
+
+#orderform {
+    margin: 50px auto;
+    width: 800px;
+}
+
+#orderform h1 {
+    font-family: tahoma;
+    text-align: center;
+    font-size: 50px;
+}
+
+#orderform label {
+    font-family: tahoma;
+    color: #6F4E37;
+    display: block;
+    margin: 10px 0;
+}
+ 
+#orderform select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #BD6E35;
+}
+
+.user-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #BD6E35;   
+}
+
+.add-ons input{
+    margin: 10px 5px 10px 20px;
+ 
+}
+
+.submit-order {
+    text-align: center;
+}
+
+.submit-order input {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 50px;
+}

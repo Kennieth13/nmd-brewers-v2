@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <table width="95% " cellpadding="0" cellspacing="0">
+            <tr>
+                <td style="width: 5%; padding: 0;"></td>
+                <td align="left">
+                    <img src="product/invilogo.png" alt="Logo" width="250" height="100">
+                </td>
+ 
+                </td>
+                <td width="100%"></td>
+                <td align="right" style="padding-right: 50px;">
+                    <a href="merchandise.html">
+                        <img src="icon/17.png" alt="mercandise" width="30" height="30">
+                    </a>
+                </td>
+                </td>
+                <td align="right" style="padding: 0%;">
+                    <a href="index.html#contactus">
+                        <img src="icon/19.png" alt="contact" width="34" height="34">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </nav>
+    </header> 
+
+<section id="products"> 
+    <h1 class="coffee-title">OUR MENU</h1> 
+    <p class="caption">Freshly prepared and served with care.</p> 
+ 
+    <h1 class="coffee-category">Iced Coffee</h1> 
+
+    <div class="coffee-container">
+
+        <div class="iced-coffee"> 
+            <img src="product/1.png" alt="Iced Americano"> 
+            <h2>Iced Americano</h2> 
+        </div> 
+ 
+        <div class="iced-coffee"> 
+            <img src="product/2.png" alt="Iced Mocha"> 
+            <h2>Iced Mocha</h2> 
+        </div> 
+ 
+        <div class="iced-coffee"> 
+            <img src="product/3.png" alt="Spanish Latte"> 
+            <h2>Spanish Latte</h2> 
+        </div> 
+ 
+        <div class="iced-coffee"> 
+            <img src="product/4.png" alt="Matcha Latte"> 
+            <h2>Matcha Latte</h2> 
+        </div> 
+ 
+        <div class="iced-coffee"> 
+            <img src="product/5.png" alt="Iced Caramel Macchiato"> 
+            <h2>Iced Caramel Macchiato</h2> 
+        </div>
+    </div>
+
+    <h1 class="coffee-category" style="margin-top: 100px;">Hot Coffee</h1> 
+
+    <div class="coffee-container">
+
+        <div class="hot-coffee"> 
+            <img src="product/6.png" alt="Hot Americano"> 
+            <h2>Hot Americano</h2> 
+        </div> 
+ 
+        <div class="hot-coffee"> 
+            <img src="product/7.png" alt="Hot Latte"> 
+            <h2>Hot Latte</h2> 
+        </div> 
+ 
+        <div class="hot-coffee"> 
+            <img src="product/8.png" alt="Hot Matcha"> 
+            <h2>Hot Matcha</h2> 
+        </div> 
+ 
+    </div>
+
+    <h1 class="coffee-category" style="margin-top: 100px;">Add-ons</h1> 
+
+    <div class="coffee-container">
+        
+        <div class="add-ons"> 
+            <img src="product/14.png" alt="Whipped Cream"> 
+            <h2>Whipped Cream</h2> 
+        </div>
+ 
+ 
+        <div class="add-ons"> 
+            <img src="product/15.png" alt="Espresso Shot"> 
+            <h2>Espresso Shot</h2> 
+        </div> 
+
+        </div> 
+
+    <h1 class="coffee-category" style="margin-top: 100px;">Pastries</h1>
+ 
+    </div>
+
+        <div class="coffee-container">
+
+        <div class="pastries"> 
+            <img src="product/9.png" alt="Croissant"> 
+            <h2>Croissant</h2> 
+        </div> 
+ 
+        <div class="pastries"> 
+            <img src="product/10.png" alt="Waffles "> 
+            <h2>Waffles </h2> 
+        </div> 
+ 
+        <div class="pastries"> 
+            <img src="product/11.png" alt="Cinnamon roll"> 
+            <h2>Cinnamon roll</h2> 
+        </div> 
+ 
+        <div class="pastries"> 
+            <img src="product/12.png" alt="Pancake"> 
+            <h2>Pancake</h2> 
+        </div> 
+ 
+        <div class="pastries"> 
+            <img src="product/13.png" alt="Pandesal"> 
+            <h2>Pandesal</h2> 
+        </div>
+    </div>
+</section>
+
+<hr style="width: 80%; height: 10px; border: none; background-color: #321C16; border-radius: 50px; margin-bottom: 30px; margin-top: 80px;">
+
+<section id="orderform">
+    <h1>Order Form</h1>
+
+    <form>
+
+        <div>
+            <label>Costumer Name:</label>
+            
+            <input class="user-input" type="text" name="name">
+        </div>
+
+        <div class="order-coffee">
+            <label>Coffee:</label>
+            <select name="coffee">
+                <option>None</option>
+                <option>Iced Americano</option>
+                <option>Iced Mocha</option>
+                <option>Spanish Latte</option>
+                <option>Matcha Latte</option>
+                <option>Iced Caramel Macchiato</option>
+                <option>Hot Latte</option>
+                <option>Hot Americano</option>
+                <option>Hot Matcha</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Quantity:</label>
+            <input class="user-input" type="number" name="quantity" min="1">
+        </div>
+
+        <div class="add-ons">
+            <label>Add-ons:</label>
+            <input type="checkbox"> Espresso Shot
+            <input type="checkbox"> Whipped Cream
+        </div>
+
+        <div class="order-pastries">
+            <label>Pastry:</label>
+            <select name="Pastry">
+                <option>None</option>
+                <option>Croissant</option>
+                <option>Waffles</option>
+                <option>Cinnamon roll</option>
+                <option>Pancake</option>
+                <option>Pandesal</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Quantity:</label>
+            <input class="user-input" type="number" name="quantity" min="1">
+        </div>
+
+        <div class="submit-order">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</section>
+
+    <footer id="footer">
+        <table>
+            <tr>
+                <td style="width: 25%; padding: 0;"></td>
+                <td class="footer-left">
+                    <img src="product/invilogo.png" alt="LOGO">
+                    <p>Asingan Pangasinan</p>
+                    <p>est. 2026</p>
+                </td>
+
+                <td class="footer-right">
+                    <p>Follow NMD Brewers on social media for more coffee, updates, and delicious moments.</p>
+
+                    <div class="icons">
+                        <a href="https://www.facebook.com/share/1JvaMXyL88/?mibextid=wwXIfr">
+                            <img src="icon/21.png" alt="Facebook"  height="30" width="30">
+                        </a>
+                        <a href="https://www.instagram.com/nmdbrewers">
+                            <img src="icon/20.png" alt="Instagram"  height="30" width="30">
+                        </a>
+                        <a href="https://www.tiktok.com/@nmd.brewers?_r=1&_t=ZS-99VaZS5F1Wv">
+                            <img src="icon/22.png" alt="Tiktok" height="30" width="30">
+                        </a>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>
